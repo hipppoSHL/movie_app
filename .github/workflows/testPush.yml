@@ -23,3 +23,5 @@ jobs:
                   git add .
                   git commit -m "Deploy Storybook and pie-docs to Github Pages"
                   git push --force --quiet https://oss.fin.navercorp.com/soohyeon-lee/test main:test-github-pages
+              env: 
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
