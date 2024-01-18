@@ -22,4 +22,4 @@ jobs:
                   git config user.email "hello@ghbot.com"
                   git add .
                   git commit -m "Deploy Storybook and pie-docs to Github Pages"
-                  git push --force --quiet https://github.com/hipppoSHL/movie_app main:test-github-pages
+                  git push --force --quiet git@github.com:hipppoSHL/movie_app.git main:test-github-pages
