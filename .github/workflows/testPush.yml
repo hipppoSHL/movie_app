@@ -14,6 +14,7 @@ jobs:
             - uses: actions/checkout@v3
             - name: test push github-pages
               run: |
+                  ls
                   cd ./docs
                   git init
                   git checkout -b main
